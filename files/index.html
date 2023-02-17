@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <script src="index.js"></script>
+
+  <body>
+    <div>
+      <input type="text" placeholder="name" id="name" />
+      <input placeholder="age" id="age" type="text" />
+      <input type="text" placeholder="email" id="email" />
+      <button onclick="addUser()">ADD</button>
+    </div>
+    <div>
+      <input type="text" placeholder="UserID" id="userID1" />
+      <button onclick="DeleteUser()">DELETE</button>
+    </div>
+    <div>
+      <input type="text" placeholder="UserID" id="userID2" />
+      <button onclick="getUser()">GET DATA</button>
+    </div>
+    <div>
+      <input type="text" placeholder="UserID" id="userID3" />
+      <input type="text" placeholder="name" id="replaceName" />
+      <input placeholder="age" id="replaceAge" type="text" />
+      <input type="text" placeholder="email" id="replaceEmail" />
+      <button onclick="replaceUser()">GET DATA</button>
+    </div>
+  </body>
 </html>
